@@ -1,0 +1,1 @@
+[main/sessions/main/db12cc96-4378-49b4-87cf-9697d8cfb1d5#L736] User: Continue the current task from the existing transcript, preserving completed work and the user's constraints. Use recorded tool results to determine what completed. Before retrying an action with an unknown outcome, inspect its state. If the recorded results already satisfy
