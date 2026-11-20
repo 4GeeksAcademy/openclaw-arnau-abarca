@@ -27,3 +27,13 @@ Documenta primero las skills nuevas y valida su estructura. La documentación de
 una skill no activa por sí misma servicios externos ni crea una programación.
 Antes de conectarla a servicios externos o programar su ejecución recurrente,
 revisa dependencias, permisos, manejo de errores y el alcance concreto de la acción.
+
+## Skills académicas 4Geeks
+
+- `4geeks-academico-autenticar/`: valida el acceso mediante una consulta de solo lectura.
+- `4geeks-academico-proyectos/`: lista proyectos y sus estados reportados.
+- `4geeks-academico-pendientes/`: detalla tareas pendientes o rechazadas.
+- `4geeks-academico-progreso/`: resume estados de tareas y actividad disponible.
+
+Estas skills usan la variable de entorno `TOKEN_4GEEKS` y la cabecera `Authorization: Token …`.
+Son procedimientos documentados, todavía no probados contra la API.
